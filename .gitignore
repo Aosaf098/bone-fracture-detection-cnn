@@ -1,0 +1,20 @@
+# 1. Virtual Environment (CRITICAL - Do not upload this)
+.venv/
+
+# 2. Dataset (Matches your folder name "Dataset")
+Dataset/
+
+# 3. Jupyter Notebook Checkpoints (Autosaves you don't need)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# 4. Large Model Files (To prevent 100MB+ upload errors)
+*.pt
+*.pth
+
+# 5. Python Cache
+__pycache__/
+*.pyc
+
+# 6. VS Code Settings (Optional)
+.vscode/
